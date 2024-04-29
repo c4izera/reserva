@@ -1,0 +1,12 @@
+{
+  "name": "reserva",
+  "version": "1.0.0",
+  "description": "Projeto criado na Linguagem de Programação \r Curo: Tecnico de Informatica Integrado ao Ensino Medio\r Instituto feeral de São Paulo - Campus Caraguatatuba",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Node.JS", "MongoDB", "JavaScript"],
+  "author": "Caio Placido",
+  "license": "MIT"
+}
