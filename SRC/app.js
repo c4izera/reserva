@@ -2,7 +2,7 @@ import express from 'express'
 import mongoose from 'mongoose'
 import cors from 'cors'
 import path from 'path'
-import routes from './routes'
+import router from './router'
 import dotenv from 'dotenv'
 
 dotenv.config()
@@ -23,7 +23,7 @@ class App {
         this.server.use(express.json())
     }
     routes() {
-        this.server.use(routes)
+        this.server.use(router)
     }
 }
 

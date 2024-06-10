@@ -26,4 +26,4 @@ class SessionController {
     }
 }
 
-export default new SessionController()ç
+export default new SessionController()
